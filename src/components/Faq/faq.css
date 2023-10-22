@@ -1,0 +1,120 @@
+#faq {
+    overflow: auto;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+#faq hr {
+    width: 100%;
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    border-color: rgb(69,71,77);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.faqTitle {
+    font-size: 3.6vw;
+    font-weight: 200;
+    padding-top: 3rem;
+    margin-bottom: 0rem;
+}
+
+.faqBars {
+    margin: 1.1rem;
+    max-width: 100%;
+    text-align: left;
+}
+
+.faqBar {
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(51, 51, 51);
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.faqBarImg {
+    object-fit: cover;
+    height: 12.5rem;
+    width: 12.5rem;
+    margin-right: 2rem;
+}
+
+.faqBarText {
+    text-align: left;
+}
+
+.faqBarText>h2 {
+    font-weight: 300;
+}
+
+.faqBarText>h3 {
+    color: rgb(119,125,140);
+    font-weight: 300;
+    font-size: 1.1vw;
+}
+
+.faqBarText>p {
+    font-size: 1.15vw;
+    font-weight: 100;
+}
+
+.faqBarText a {
+    color: rgb(185, 87, 0);
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.faqBarText a:hover {
+    color: rgb(0,53,185);
+    text-decoration: underline;
+}
+
+.faqVideo {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    position: relative;
+    width: 100%;
+    max-width: 65rem;
+    padding-bottom: 56.25%;  /* Aspect ratio: 100% * 9 / 16 = 56.25% for a 16:9 video */
+    overflow: hidden;
+}
+
+.faqVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:720px) {
+    .faqBarText>p {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .faqBarText>p {
+        font-size: 3vw;
+    }
+    .faqBarImg {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+    .faqBarText>h2 {
+        font-size: 5vw;
+    }
+}
