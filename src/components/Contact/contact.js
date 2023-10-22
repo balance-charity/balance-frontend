@@ -1,8 +1,4 @@
 import './contact.css';
-import Walmart from '../../assets/walmart.png';
-import Adobe from '../../assets/adobe.png';
-import Microsoft from '../../assets/microsoft.png';
-import Facebook from '../../assets/facebook.png';
 import facebookIcon from '../../assets/facebook-icon.png';
 import twitterIcon from '../../assets/twitter.png';
 import youtubeIcon from '../../assets/youtube.png';
@@ -25,35 +21,26 @@ const Contact = () => {
                 console.log(error.text);
             });
     };
-    
+
     return (
         <div id='contactPage'>
-            <div id="clients">
-                <h1 className="contactPageTitle">My clients</h1>
-                <span className="clientDesc">
-                    I have had the opportunity to work with a diverse group of companies. 
-                    Some of the notable companies I have worked with includes
-                </span>
-                <div className="clientImgs">
-                    <img src={Walmart} alt="Client" className="clientImg" />
-                    <img src={Adobe} alt="Client" className="clientImg" />
-                    <img src={Microsoft} alt="Client" className="clientImg" />
-                    <img src={Facebook} alt="Client" className="clientImg" />                   
-                </div>
-            </div>
             <div id="contact">
                 <h1 className="contactPageTitle">Contact Me</h1>
-                <span className="contactDesc">Please fill out the form below to discuss any work opportunities.</span>
+                <span className="contactDesc">Please fill out the form below for more information.</span>
                 <form className="contactForm" ref={form} onSubmit={sendEmail}>
                     <input type="text" className="name" placeholder='Your name' name='from_name' />
                     <input type="text" className="email" placeholder='Your Email' name='from_email' />
                     <textarea name="message" placeholder='Your Message' rows={5} className='msg' ></textarea>
                     <button type="submit" value="Send" className='submitBtn'>Submit</button>
                     <div className="links">
-                        <img src={facebookIcon} alt="Facebook" className="link" />
-                        <img src={twitterIcon} alt="Twitter" className="link" />
-                        <img src={youtubeIcon} alt="YouTube" className="link" />
-                        <img src={instagramIcon} alt="Instagram" className="link" />
+                        {/* <img src={facebookIcon} alt="Facebook" className="link" />
+                        <img src={twitterIcon} alt="Twitter" className="link" /> */}
+                        <a href="https://www.youtube.com/@Balance_charity" target="_blank" rel="noopener noreferrer">
+                            <img src={youtubeIcon} alt="YouTube" className="link" />
+                        </a>
+                        <a href="https://www.instagram.com/the_balance_888/" target="_blank" rel="noopener noreferrer">
+                            <img src={instagramIcon} alt="Instagram" className="link" />
+                        </a>
                     </div>
                 </form>
             </div>

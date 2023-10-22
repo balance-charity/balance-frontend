@@ -8,9 +8,6 @@ const Faq = () => {
             <div className="faqBars">
                 <div className="faqBar">
                     <div className="faqBarText">
-                        <h2>How can I get involved?</h2>
-                        <p><br />Check out <a href="join">this page</a> for more information.</p>
-                        <hr />
                         <h2>What are we doing now?</h2>
                         <p><br />We are currently running a late night Thursday program in Jerusalem.
                             We rely on donated food, donated space, and donated time. We'd love to get
