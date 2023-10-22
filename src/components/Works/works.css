@@ -2,27 +2,46 @@
     margin: 0 auto;
     min-height: calc(100vh - 4rem);
     width: 100vw;
-    max-width: 60rem;
+    max-width: 65rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     text-align: center;
     padding: 0 1rem;
 }
 
 hr {
     width: 100%;
-    margin-top: 1.5vw;
-    margin-bottom: 1vw;
+    margin-top: 5vw;
+    margin-bottom: 1.3vw;
     border-color: rgb(69,71,77);
     border-width: 1px;
     border-style: solid;
 }
 
+.testimonialsImg {
+    object-fit: cover;
+    height: 21rem;
+    width: 15rem;
+    margin-left: 0.4rem;
+}
+
+.testimonialsText {
+    flex-direction: column;
+    padding: 1rem 3rem;
+    text-align: left;
+}
+
+.skillBar p {
+    font-size: 1.15vw;
+    font-weight: 100;
+}
+
 .worksTitle {
     margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 3.6vw;
+    font-weight: 200;
 }
 
 .worksDesc {

@@ -11,6 +11,14 @@
     margin-bottom: 2rem;
 }
 
+#skills hr {
+    width: 100%;
+    margin-top: 1.6vw;
+    border-color: rgb(69,71,77);
+    border-width: 1px;
+    border-style: solid;
+}
+
 .skillTitle {
     font-size: 3.6vw;
     font-weight: 200;
