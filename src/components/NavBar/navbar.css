@@ -1,10 +1,10 @@
 .navbar {
     background: rgb(15, 15, 15);
-    height: 10rem;
+    height: 10vw;
     width: 100vw;
-    max-width: 100rem;
+    max-width: 100vw;
     margin: 0 auto;
-    padding: 1rem 2rem;
+    padding: 1vw 2vw;
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
@@ -12,29 +12,30 @@
     top: 0;
     z-index: 3;
     font-weight: 100;
-    font-size: 1.6rem;
+    font-size: 1.7vw;
     border-bottom: 4px solid rgba(0, 53, 185);
 }
 
 .logo {
     object-fit: cover;
-    height: 9rem;
-    width: 16rem;
+    height: 9vw;
+    width: 16vw;
 }
 
 .desktopMenu {
-    margin-left: 3rem;
+    margin-left: 3vw;
+    flex-direction: row;
 }
 
 .desktopMenuListItem {
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1vw;
+    padding: 1vw;
     cursor: pointer;
 }
 
 .desktopMenuListItem:hover {
     color: rgb(185, 87, 0);
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.5vw;
     border-bottom: 3px solid rgb(185, 87, 0);
 }
 
@@ -45,10 +46,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.7rem 2.1rem;
-    border-radius: 2rem;
+    padding: 0.7vw 2.1vw;
+    border-radius: 2vw;
     font-weight: 100;
-    font-size: 17px;
+    font-size: 1.1vw;
     margin-left: auto;
 }
 
@@ -58,34 +59,34 @@
 
 .active {
     color: rgb(185, 87, 0);
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.5vw;
     border-bottom: 3px solid rgb(185, 87, 0);
 }
 
 .mobMenu {
     display: none;
     object-fit: cover;
-    height: 1.8rem;
+    height: 1.8vw;
 }
 
 .navMenu {
     position: absolute;
-    top: 4rem;
-    right: 2rem;
+    top: 4vw;
+    right: 2vw;
     z-index: 2;
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 0.5vw;
     height:fit-content;
-    min-width: 15rem;
+    min-width: 15vw;
     background: rgb(40, 40, 40);
-    border-radius: 1rem;
+    border-radius: 1vw;
 }
 
 .listItem {
     color: white;
-    padding: 0.5rem 3rem;
-    margin: 0.25rem;
+    padding: 0.5vw 3vw;
+    margin: 0.25vw;
     background: rgb(30, 30, 30);
 }
 

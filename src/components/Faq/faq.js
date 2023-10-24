@@ -13,8 +13,8 @@ const Faq = () => {
                             We rely on donated food, donated space, and donated time. We'd love to get
                             you more involved, or if you are in need of our services, we'd love to help
                             you out!</p>
-                        <p><br />Contact Shmuel via <a href="mailto:shmuel@balance.charity">shmuel@balance.charity</a>
-                            for more information.</p>
+                        <p><br />Contact Shmuel via <a href="mailto:shmuel@balance.charity">shmuel@balance.charity
+                        </a> for more information.</p>
                         <hr />
                         <h2>What are we missing and how can you help?</h2>
                         <p><br />We are missing <b>YOU!</b></p>

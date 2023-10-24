@@ -1,8 +1,8 @@
 #intro {
     /* height: calc(100vh - 4rem); */
     height: auto;
-    min-height: calc(100vh - 4rem);
-    margin-bottom: 2rem;
+    min-height: calc(100vh - 4vw);
+    margin-bottom: 2vw;
     width: 100vw;
     margin: 0 auto;
     position: relative;
@@ -19,8 +19,8 @@
     margin-left: 2%;
     flex-direction: column;
     justify-content: start;
-    max-height: calc(100vh - 15.5rem);
-    margin-bottom: 2rem;
+    max-height: calc(100vh - 15.5vw);
+    margin-bottom: 2vw;
 }
 
 .textColumn {
@@ -36,7 +36,7 @@
     font-size: 2vw;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0.5vw 1vw;
 
 }
 
@@ -47,7 +47,7 @@
     font-weight: 100;
     font-size: 1.4vw;
     font-style: italic;
-    padding: 2rem 3rem;
+    padding: 2vw 3vw;
     text-align: center;
     align-items: center;
 }
@@ -96,16 +96,16 @@
 
 .btn {
     background: white;
-    margin: 1rem 0;
-    padding: 0.75rem 1.5rem;
+    margin: 1vw 0;
+    padding: 0.75vw 1.5vw;
     border: none;
-    border-radius: 2rem;
+    border-radius: 2vw;
 }
 
 .btnImg {
     object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
+    margin: 0 0.25vw;
+    height: 1vw;
 }
 
 @media screen and (max-width:840px) {

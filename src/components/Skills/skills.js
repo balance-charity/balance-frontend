@@ -22,7 +22,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="skillBar">
-                    <img src={Shmuel} alt="Shmuel" className="skillBarImg" />
+                    <img src={Shmuel} alt="Shmuel" className="skillBarImg2" />
                     <div className="skillBarText">
                         <h2>Shmuel Nachman</h2>
                         <h3>Co-Founder and Head of Operations</h3>

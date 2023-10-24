@@ -1,14 +1,14 @@
 #works {
     margin: 0 auto;
-    min-height: calc(100vh - 4rem);
+    min-height: calc(100vh - 4vw);
     width: 100vw;
-    max-width: 65rem;
+    max-width: 65vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
     text-align: center;
-    padding: 0 1rem;
+    padding: 0 1vw;
 }
 
 hr {
@@ -22,14 +22,14 @@ hr {
 
 .testimonialsImg {
     object-fit: cover;
-    height: 21rem;
-    width: 15rem;
-    margin-left: 0.4rem;
+    height: 21vw;
+    width: 15vw;
+    margin-left: 0.4vw;
 }
 
 .testimonialsText {
     flex-direction: column;
-    padding: 1rem 3rem;
+    padding: 1vw 3vw;
     text-align: left;
 }
 
@@ -39,15 +39,15 @@ hr {
 }
 
 .worksTitle {
-    margin: 1rem 0;
+    margin: 1vw 0;
     font-size: 3.6vw;
     font-weight: 200;
 }
 
 .worksDesc {
     font-weight: 300;
-    font-size: 1rem;
-    max-width: 45rem;
+    font-size: 1vw;
+    max-width: 45vw;
 }
 
 .worksImgs {
@@ -56,22 +56,22 @@ hr {
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
-    max-width: 65rem;
+    max-width: 65vw;
 }
 
 .worksImg {
     object-fit: cover;
-    height: 20rem;
-    margin: 0.5rem;
+    height: 20vw;
+    margin: 0.5vw;
 }
 
 .workBtn {
-    margin: 3rem 0;
-    padding: 0.5rem 2.5rem;
+    margin: 3vw 0;
+    padding: 0.5vw 2.5vw;
     border: none;
-    border-radius: 2rem;
+    border-radius: 2vw;
     background: white;
-    font-size: 1rem;
+    font-size: 1vw;
 }
 
 @media screen and (max-width:585px) {
